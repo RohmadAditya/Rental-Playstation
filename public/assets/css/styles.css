@@ -2110,7 +2110,7 @@ progress {
           margin-inline-end: 1rem;
 }
 
-textarea.form-control {
+/* textarea.form-control {
   min-height: calc(1.5em + 0.75rem + 2px);
 }
 textarea.form-control-sm {
@@ -2118,7 +2118,7 @@ textarea.form-control-sm {
 }
 textarea.form-control-lg {
   min-height: calc(1.5em + 1rem + 2px);
-}
+} */
 
 .form-control-color {
   width: 3rem;
