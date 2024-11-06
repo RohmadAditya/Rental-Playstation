@@ -55,4 +55,54 @@ window.addEventListener('DOMContentLoaded', event => {
     const logo = document.querySelector('.logo').cloneNode(true);
     document.querySelector('.logo-container').appendChild(logo);
 
+    document.getElementById('facilities').classList.add('active');
+
 });
+
+// Fungsi untuk mendeteksi apakah elemen berada dalam viewport
+function isInViewport(element) {
+    const rect = element.getBoundingClientRect();
+    return (
+      rect.top <= (window.innerHeight || document.documentElement.clientHeight)
+    );
+  }
+
+  // Menambahkan event listener untuk scroll
+  window.addEventListener('scroll', function () {
+    const facilitiesSection = document.getElementById('facilities');
+    if (isInViewport(facilitiesSection)) {
+      facilitiesSection.classList.add('visible');
+    } else {
+        facilitiesSection.classList.remove('visible'); // Reset transisi
+    }
+  });
+
+  // Menambahkan event listener untuk scroll
+  window.addEventListener('scroll', function () {
+    const facilitiesSection = document.getElementById('pricing');
+    if (isInViewport(facilitiesSection)) {
+      facilitiesSection.classList.add('visible');
+    } else {
+        facilitiesSection.classList.remove('visible'); // Reset transisi
+    }
+  });
+
+  // Menambahkan event listener untuk scroll
+  window.addEventListener('scroll', function () {
+    const facilitiesSection = document.getElementById('games');
+    if (isInViewport(facilitiesSection)) {
+      facilitiesSection.classList.add('visible');
+    } else {
+        facilitiesSection.classList.remove('visible'); // Reset transisi
+    }
+  });
+
+  // Menambahkan event listener untuk scroll
+  window.addEventListener('scroll', function () {
+    const facilitiesSection = document.getElementById('contact');
+    if (isInViewport(facilitiesSection)) {
+      facilitiesSection.classList.add('visible');
+    } else {
+        facilitiesSection.classList.remove('visible'); // Reset transisi
+    }
+  });

@@ -23,8 +23,10 @@
     <!-- Navigation-->
     <nav class="navbar navbar-expand-lg navbar-dark fixed-top" id="mainNav">
         <div class="container">
-            <a class="navbar-brand" href="#page-top"><img src="{{ asset('assets/img/navbar-logo.svg') }}"
-                    alt="..." /></a>
+            <a class="navbar-brand" href="#page-top">
+                <h5>MG Playstation</h5>
+                {{-- <img src="{{ asset('assets/img/navbar-logo.svg') }}" alt="..." /> --}}
+            </a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive"
                 aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
                 Menu
@@ -34,6 +36,7 @@
                 <ul class="navbar-nav text-uppercase ms-auto py-4 py-lg-0">
                     <li class="nav-item"><a class="nav-link" href="#facilities">Facilities</a></li>
                     <li class="nav-item"><a class="nav-link" href="#pricing">Pricing</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#ketersediaan">Ketersediaan</a></li>
                     <li class="nav-item"><a class="nav-link" href="#games">Games</a></li>
                     <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
                 </ul>
@@ -51,7 +54,7 @@
     </header>
 
     <!-- Facilities-->
-    <section class="page-section" id="facilities">
+    <section class="page-section fade-in" id="facilities">
         <div class="container">
             <div class="text-center">
                 <h2 class="section-heading text-uppercase">Facilities</h2>
@@ -61,12 +64,9 @@
                 <div class="col-md-4">
                     <span class="fa-stack fa-4x">
                         <i class="fas fa-circle fa-stack-2x text-primary"></i>
-                        <i class="fas fa-gamepad fa-stack-1x fa-inverse" style="color: #ffffff;"></i>
-                        {{-- <i class="fas fa-shopping-cart fa-stack-1x fa-inverse"></i> --}}
+                        <i class="fa-brands fa-playstation fa-stack-1x fa-inverse"></i>
                     </span>
-                    <h4 class="my-3">12 Unit PS4</h4>
-                    <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam
-                        architecto quo inventore harum ex magni, dicta impedit.</p>
+                    <h4 class="my-3">5 unit PS 4 &<br> 7 unit PS 3 </h4>
                 </div>
                 <div class="col-md-4">
                     <span class="fa-stack fa-4x">
@@ -74,24 +74,43 @@
                         <i class="fas fa-tv fa-stack-1x fa-inverse"></i>
                     </span>
                     <h4 class="my-3">TV 32 Inch</h4>
-                    <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam
-                        architecto quo inventore harum ex magni, dicta impedit.</p>
                 </div>
-                {{-- <div class="col-md-4">
+                <div class="col-md-4">
+                    <span class="fa-stack fa-4x">
+                        <i class="fas fa-circle fa-stack-2x text-primary" style="color: black;"></i>
+                        <i class="fas fa-gamepad fa-stack-1x fa-inverse" style="color: #ffc800;"></i>
+                        {{-- <i class="fas fa-shopping-cart fa-stack-1x fa-inverse"></i> --}}
+                    </span>
+                    <h4 class="my-3">Stick Ori</h4>
+                </div>
+                <div class="col-md-4">
                     <span class="fa-stack fa-4x">
                         <i class="fas fa-circle fa-stack-2x text-primary"></i>
-                        <i class="fas fa-lock fa-stack-1x fa-inverse"></i>
+                        <i class="fas fa-clock fa-stack-1x fa-inverse" style="color: #ffffff;"></i>
+                        {{-- <i class="fas fa-shopping-cart fa-stack-1x fa-inverse"></i> --}}
                     </span>
-                    <h4 class="my-3">Web Security</h4>
-                    <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam
-                        architecto quo inventore harum ex magni, dicta impedit.</p>
-                </div> --}}
+                    <h4 class="my-3">Games Terupdate</h4>
+                </div>
+                <div class="col-md-4">
+                    <span class="fa-stack fa-4x">
+                        <i class="fas fa-circle fa-stack-2x text-primary"></i>
+                        <i class="fa-solid fa-house-flag fa-stack-1x fa-inverse"></i>
+                    </span>
+                    <h4 class="my-3">Tempat Nyaman</h4>
+                </div>
+                <div class="col-md-4">
+                    <span class="fa-stack fa-4x">
+                        <i class="fas fa-circle fa-stack-2x text-primary"></i>
+                        <i class="fa-solid fa-dollar-sign fa-stack-1x fa-inverse"></i>
+                    </span>
+                    <h4 class="my-3">Harga Terjangkau</h4>
+                </div>
             </div>
         </div>
     </section>
 
     <!-- Pricing-->
-    <section class="page-section bg-light" id="pricing">
+    <section class="page-section bg-light fade-in" id="pricing">
         <div class="container">
             <div class="text-center">
                 <h2 class="section-heading text-uppercase">Pricing</h2>
@@ -103,13 +122,8 @@
                             alt="..." /></div>
                     <div class="timeline-panel">
                         <div class="timeline-heading">
-                            <h4>2009-2011</h4>
-                            <h4 class="subheading">Our Humble Beginnings</h4>
-                        </div>
-                        <div class="timeline-body">
-                            <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut
-                                voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero
-                                unde, sed, incidunt et ea quo dolore laudantium consectetur!</p>
+                            {{-- <h4>2009-2011</h4> --}}
+                            <h4 class="subheading">Harga Rental PS 3 & 4</h4>
                         </div>
                     </div>
                 </li>
@@ -161,11 +175,11 @@
                 <li class="timeline-inverted">
                     <div class="timeline-image">
                         <h4>
-                            Be Part
+                            Ayo
                             <br />
-                            Of Our
+                            Datang &
                             <br />
-                            Story!
+                            Mainkan!
                         </h4>
                     </div>
                 </li>
@@ -173,153 +187,43 @@
         </div>
     </section>
 
-    <!-- Games-->
-    <section class="page-section" id="portfolio">
-        <div class="container">
-            <div class="text-center">
-                <h2 class="section-heading text-uppercase">Games</h2>
-                <h3 class="section-subheading text-muted">Lorem ipsum dolor sit amet consectetur.</h3>
-            </div>
-            <div class="row">
-                <div class="col-lg-4 col-sm-6 mb-4">
-                    <!-- Portfolio item 1-->
-                    <div class="portfolio-item">
-                        <a class="portfolio-link" data-bs-toggle="modal" href="#portfolioModal1">
-                            <div class="portfolio-hover">
-                                <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
-                            </div>
-                            <img class="img-fluid" src="assets/img/portfolio/1.jpg" alt="..." />
-                        </a>
-                        <div class="portfolio-caption">
-                            <div class="portfolio-caption-heading">Threads</div>
-                            <div class="portfolio-caption-subheading text-muted">Illustration</div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-sm-6 mb-4">
-                    <!-- Portfolio item 2-->
-                    <div class="portfolio-item">
-                        <a class="portfolio-link" data-bs-toggle="modal" href="#portfolioModal2">
-                            <div class="portfolio-hover">
-                                <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
-                            </div>
-                            <img class="img-fluid" src="assets/img/portfolio/2.jpg" alt="..." />
-                        </a>
-                        <div class="portfolio-caption">
-                            <div class="portfolio-caption-heading">Explore</div>
-                            <div class="portfolio-caption-subheading text-muted">Graphic Design</div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-sm-6 mb-4">
-                    <!-- Portfolio item 3-->
-                    <div class="portfolio-item">
-                        <a class="portfolio-link" data-bs-toggle="modal" href="#portfolioModal3">
-                            <div class="portfolio-hover">
-                                <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
-                            </div>
-                            <img class="img-fluid" src="assets/img/portfolio/3.jpg" alt="..." />
-                        </a>
-                        <div class="portfolio-caption">
-                            <div class="portfolio-caption-heading">Finish</div>
-                            <div class="portfolio-caption-subheading text-muted">Identity</div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-sm-6 mb-4 mb-lg-0">
-                    <!-- Portfolio item 4-->
-                    <div class="portfolio-item">
-                        <a class="portfolio-link" data-bs-toggle="modal" href="#portfolioModal4">
-                            <div class="portfolio-hover">
-                                <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
-                            </div>
-                            <img class="img-fluid" src="assets/img/portfolio/4.jpg" alt="..." />
-                        </a>
-                        <div class="portfolio-caption">
-                            <div class="portfolio-caption-heading">Lines</div>
-                            <div class="portfolio-caption-subheading text-muted">Branding</div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-sm-6 mb-4 mb-sm-0">
-                    <!-- Portfolio item 5-->
-                    <div class="portfolio-item">
-                        <a class="portfolio-link" data-bs-toggle="modal" href="#portfolioModal5">
-                            <div class="portfolio-hover">
-                                <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
-                            </div>
-                            <img class="img-fluid" src="assets/img/portfolio/5.jpg" alt="..." />
-                        </a>
-                        <div class="portfolio-caption">
-                            <div class="portfolio-caption-heading">Southwest</div>
-                            <div class="portfolio-caption-subheading text-muted">Website Design</div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-sm-6">
-                    <!-- Portfolio item 6-->
-                    <div class="portfolio-item">
-                        <a class="portfolio-link" data-bs-toggle="modal" href="#portfolioModal6">
-                            <div class="portfolio-hover">
-                                <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
-                            </div>
-                            <img class="img-fluid" src="assets/img/portfolio/6.jpg" alt="..." />
-                        </a>
-                        <div class="portfolio-caption">
-                            <div class="portfolio-caption-heading">Window</div>
-                            <div class="portfolio-caption-subheading text-muted">Photography</div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
     <!-- Team-->
-    {{-- <section class="page-section bg-light" id="team">
+    <section class="page-section bg-light" id="ketersediaan">
         <div class="container">
             <div class="text-center">
-                <h2 class="section-heading text-uppercase">Our Amazing Team</h2>
-                <h3 class="section-subheading text-muted">Lorem ipsum dolor sit amet consectetur.</h3>
+                <h2 class="section-heading text-uppercase">Check Ketersediaan Playstation</h2>
+                {{-- <h3 class="section-subheading text-muted">Lorem ipsum dolor sit amet consectetur.</h3> --}}
             </div>
+
             <div class="row">
                 <div class="col-lg-4">
                     <div class="team-member">
-                        <img class="mx-auto rounded-circle" src="assets/img/team/1.jpg" alt="..." />
-                        <h4>Parveen Anand</h4>
-                        <p class="text-muted">Lead Designer</p>
-                        <a class="btn btn-dark btn-social mx-2" href="#!" aria-label="Parveen Anand Twitter Profile"><i
-                                class="fab fa-twitter"></i></a>
-                        <a class="btn btn-dark btn-social mx-2" href="#!" aria-label="Parveen Anand Facebook Profile"><i
-                                class="fab fa-facebook-f"></i></a>
-                        <a class="btn btn-dark btn-social mx-2" href="#!" aria-label="Parveen Anand LinkedIn Profile"><i
-                                class="fab fa-linkedin-in"></i></a>
+                        {{-- <img class="mx-auto rounded-circle" src="" alt="..." /> --}}
+                        <h4>Playstation 1</h4>
+                        <p class="text-muted">PS 3</p>
+                        <button type="button" class="btn btn-dark">
+                            Detail
+                        </button>
                     </div>
                 </div>
                 <div class="col-lg-4">
                     <div class="team-member">
-                        <img class="mx-auto rounded-circle" src="assets/img/team/2.jpg" alt="..." />
-                        <h4>Diana Petersen</h4>
-                        <p class="text-muted">Lead Marketer</p>
-                        <a class="btn btn-dark btn-social mx-2" href="#!" aria-label="Diana Petersen Twitter Profile"><i
-                                class="fab fa-twitter"></i></a>
-                        <a class="btn btn-dark btn-social mx-2" href="#!"
-                            aria-label="Diana Petersen Facebook Profile"><i class="fab fa-facebook-f"></i></a>
-                        <a class="btn btn-dark btn-social mx-2" href="#!"
-                            aria-label="Diana Petersen LinkedIn Profile"><i class="fab fa-linkedin-in"></i></a>
+                        {{-- <img class="mx-auto rounded-circle" src="" alt="..." /> --}}
+                        <h4>Playstation 2</h4>
+                        <p class="text-muted">PS 3</p>
+                        <button type="button" class="btn btn-dark">
+                            Detail
+                        </button>
                     </div>
                 </div>
                 <div class="col-lg-4">
                     <div class="team-member">
-                        <img class="mx-auto rounded-circle" src="assets/img/team/3.jpg" alt="..." />
-                        <h4>Larry Parker</h4>
-                        <p class="text-muted">Lead Developer</p>
-                        <a class="btn btn-dark btn-social mx-2" href="#!" aria-label="Larry Parker Twitter Profile"><i
-                                class="fab fa-twitter"></i></a>
-                        <a class="btn btn-dark btn-social mx-2" href="#!" aria-label="Larry Parker Facebook Profile"><i
-                                class="fab fa-facebook-f"></i></a>
-                        <a class="btn btn-dark btn-social mx-2" href="#!" aria-label="Larry Parker LinkedIn Profile"><i
-                                class="fab fa-linkedin-in"></i></a>
+                        {{-- <img class="mx-auto rounded-circle" src="" alt="..." /> --}}
+                        <h4>Playstation 3</h4>
+                        <p class="text-muted">PS 4</p>
+                        <button type="button" class="btn btn-dark">
+                            Detail
+                        </button>
                     </div>
                 </div>
             </div>
@@ -330,7 +234,94 @@
                 </div>
             </div>
         </div>
-    </section> --}}
+    </section>
+
+    <!-- Games-->
+    <section class="page-section fade-in" id="games">
+        <div class="container">
+            <div class="text-center">
+                <h2 class="section-heading text-uppercase">Games</h2>
+                <h3 class="section-subheading text-muted">Lorem ipsum dolor sit amet consectetur.</h3>
+            </div>
+            <div class="row">
+
+                <div class="col-lg-4 col-sm-6 mb-4">
+                    <!-- Portfolio item 1-->
+                    <div class="card" style="width: 20rem;">
+                        <img src="assets/img/games/PS4_FIFA2019.jpg" class="card-img-top" alt="PS4_FIFA2019">
+                        <div class="card-body">
+                        <p class="card-text fw-bold text-center">
+                            FIFA 2019
+                        </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-sm-6 mb-4">
+                    <!-- Portfolio item 2-->
+                    <div class="card" style="width: 20rem;">
+                        <img src="assets/img/games/PS4_PES2019.jpg" class="card-img-top" alt="PS4_PES2019">
+                        <div class="card-body">
+                        <p class="card-text fw-bold text-center">
+                            Pro Evolution Soccer 2019
+                        </p>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="col-lg-4 col-sm-6 mb-4">
+                    <!-- Portfolio item 3-->
+                    <div class="card" style="width: 20rem;">
+                        <img src="assets/img/games/PS4_GOW.jpg" class="card-img-top" alt="PS4_GOW">
+                        <div class="card-body">
+                        <p class="card-text fw-bold text-center">
+                            GOD OF WAR : Day One Edition
+                        </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-sm-6 mb-4 mb-lg-0">
+                    <!-- Portfolio item 4-->
+                    <div class="card" style="width: 20rem;">
+                        <img src="assets/img/games/PS4_Battlefield4.jpg" class="card-img-top" alt="PS4_Battlefield4">
+                        <div class="card-body">
+                        <p class="card-text fw-bold text-center">
+                            BATTLEFIELD 4
+                        </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-sm-6 mb-4 mb-sm-0">
+                    <!-- Portfolio item 5-->
+                    <div class="card" style="width: 20rem;">
+                        <img src="assets/img/games/PS4_GTA.jpg" class="card-img-top" alt="PS4_GTA">
+                        <div class="card-body">
+                        <p class="card-text fw-bold text-center">
+                            GRAND THEFT AUTO
+                        </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-sm-6">
+                    <!-- Portfolio item 6-->
+                    <div class="card" style="width: 20rem;">
+                        <img src="assets/img/games/PS4_Horizon_Zero_Dawn.jpg" class="card-img-top" alt="PS4_Horizon_Zero_Dawn">
+                        <div class="card-body">
+                        <p class="card-text fw-bold text-center">
+                            HORIZON ZERO DAWN
+                        </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="text-center">
+                <button type="button" class="btn btn-warning mt-5" data-bs-toggle="modal" data-bs-target="#modalGames">
+                    View More
+                </button>
+            </div>
+        </div>
+    </section>
 
     <!-- Clients-->
     {{-- <div class="py-5">
@@ -373,7 +364,7 @@
     </div>
 
     <!-- Contact-->
-    <section class="page-section" id="contact">
+    <section class="page-section fade-in" id="contact">
         <div class="container">
             <div class="text-center">
                 <h2 class="section-heading text-uppercase">Contact Us</h2>
@@ -407,55 +398,19 @@
                     <div class="col-md-6">
                         <h5 style="color: white">Message Us : </h5>
                         <div class="form-group">
-                            <!-- Name input-->
-                            <input class="form-control" id="name" type="text" placeholder="Your Name *"
-                                data-sb-validations="required" />
-                            <div class="invalid-feedback" data-sb-feedback="name:required">A name is required.</div>
+                            <!-- WA-->
+                            <input class="form-control" id="name" type="text" value="Whatsapp : +62 098765123"
+                                readonly />
+                            {{-- <div class="invalid-feedback" data-sb-feedback="name:required">A name is required.
+                            </div> --}}
                         </div>
                         <div class="form-group">
-                            <!-- Email address input-->
-                            <input class="form-control" id="email" type="email" placeholder="Your Email *"
-                                data-sb-validations="required,email" />
-                            <div class="invalid-feedback" data-sb-feedback="email:required">An email is required.</div>
-                            <div class="invalid-feedback" data-sb-feedback="email:email">Email is not valid.</div>
+                            <!-- Email-->
+                            <input class="form-control" id="email" type="text" value="Email : antonius@gmail.com"
+                                readonly />
+                            {{-- <div class="invalid-feedback" data-sb-feedback="name:required">A name is required.
+                            </div> --}}
                         </div>
-                        <div class="form-group">
-                            <!-- Phone number input-->
-                            <input class="form-control" id="phone" type="tel" placeholder="Your Phone *"
-                                data-sb-validations="required" />
-                            <div class="invalid-feedback" data-sb-feedback="phone:required">A phone number is required.
-                            </div>
-                        </div>
-                        <div class="form-group mb-md-0">
-                            <!-- Phone textarea input-->
-                            <textarea class="form-control" id="message" placeholder="Your Message *"
-                                data-sb-validations="required"></textarea>
-                            <div class="invalid-feedback" data-sb-feedback="message:required">A message is required.
-                            </div>
-                        </div>
-
-                        <!-- Submit success message-->
-                        <!---->
-                        <!-- This is what your users will see when the form-->
-                        <!-- has successfully submitted-->
-                        <div class="d-none" id="submitSuccessMessage">
-                            <div class="text-center text-white mb-3">
-                                <div class="fw-bolder">Form submission successful!</div>
-                                To activate this form, sign up at
-                                <br />
-                                <a href="https://startbootstrap.com/solution/contact-forms">https://startbootstrap.com/solution/contact-forms</a>
-                            </div>
-                        </div>
-                        <!-- Submit error message-->
-                        <!---->
-                        <!-- This is what your users will see when there is-->
-                        <!-- an error submitting the form-->
-                        <div class="d-none" id="submitErrorMessage">
-                            <div class="text-center text-danger mb-3">Error sending message!</div>
-                        </div>
-                        <!-- Submit Button-->
-                        <div class="text-center mt-5"><button class="btn btn-primary btn-xl text-uppercase disabled"
-                                id="submitButton" type="submit">Send Message</button></div>
                     </div>
                 </div>
             </form>
@@ -482,6 +437,21 @@
             </div>
         </div>
     </footer>
+
+    {{-- Games Modal --}}
+    <div class="modal fade" id="modalGames" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-fullscreen">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h1 class="modal-title fs-5" id="exampleModalLabel">All Games</h1>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    ...
+                </div>
+            </div>
+        </div>
+    </div>
 
 
     <!-- Portfolio Modals-->
