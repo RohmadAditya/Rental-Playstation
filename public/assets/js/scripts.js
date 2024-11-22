@@ -89,6 +89,16 @@ function isInViewport(element) {
 
   // Menambahkan event listener untuk scroll
   window.addEventListener('scroll', function () {
+    const facilitiesSection = document.getElementById('ketersediaan');
+    if (isInViewport(facilitiesSection)) {
+      facilitiesSection.classList.add('visible');
+    } else {
+        facilitiesSection.classList.remove('visible'); // Reset transisi
+    }
+  });
+
+  // Menambahkan event listener untuk scroll
+  window.addEventListener('scroll', function () {
     const facilitiesSection = document.getElementById('games');
     if (isInViewport(facilitiesSection)) {
       facilitiesSection.classList.add('visible');

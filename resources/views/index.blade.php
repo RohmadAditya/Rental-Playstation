@@ -48,7 +48,7 @@
     <header class="masthead">
         <div class="container">
             <div class="masthead-subheading">Welcome To Our <u>GameZone</u>!</div>
-            <div class="masthead-heading text-uppercase">It's Nice To Meet You</div>
+            <div class="masthead-heading text-uppercase">Maul Game Playstation</div>
             <a class="btn btn-primary btn-xl text-uppercase" href="#facilities">More Information</a>
         </div>
     </header>
@@ -77,8 +77,8 @@
                 </div>
                 <div class="col-md-4">
                     <span class="fa-stack fa-4x">
-                        <i class="fas fa-circle fa-stack-2x text-primary" style="color: black;"></i>
-                        <i class="fas fa-gamepad fa-stack-1x fa-inverse" style="color: #ffc800;"></i>
+                        <i class="fas fa-circle fa-stack-2x text-primary"></i>
+                        <i class="fas fa-gamepad fa-stack-1x fa-inverse"></i>
                         {{-- <i class="fas fa-shopping-cart fa-stack-1x fa-inverse"></i> --}}
                     </span>
                     <h4 class="my-3">Stick Ori</h4>
@@ -132,13 +132,8 @@
                             alt="..." /></div>
                     <div class="timeline-panel">
                         <div class="timeline-heading">
-                            <h4>March 2011</h4>
-                            <h4 class="subheading">An Agency is Born</h4>
-                        </div>
-                        <div class="timeline-body">
-                            <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut
-                                voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero
-                                unde, sed, incidunt et ea quo dolore laudantium consectetur!</p>
+                            {{-- <h4>March 2011</h4> --}}
+                            <h4 class="subheading">Harga Snack & Minuman</h4>
                         </div>
                     </div>
                 </li>
@@ -147,17 +142,12 @@
                             alt="..." /></div>
                     <div class="timeline-panel">
                         <div class="timeline-heading">
-                            <h4>December 2015</h4>
-                            <h4 class="subheading">Transition to Full Service</h4>
-                        </div>
-                        <div class="timeline-body">
-                            <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut
-                                voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero
-                                unde, sed, incidunt et ea quo dolore laudantium consectetur!</p>
+                            {{-- <h4 class="subheading">Transition to Full Service</h4> --}}
+                            <h4>Jasa Isi Game ps 3 & 4</h4>
                         </div>
                     </div>
                 </li>
-                <li class="timeline-inverted">
+                {{-- <li class="timeline-inverted">
                     <div class="timeline-image"><img class="rounded-circle img-fluid" src="assets/img/about/4.jpg"
                             alt="..." /></div>
                     <div class="timeline-panel">
@@ -171,7 +161,7 @@
                                 unde, sed, incidunt et ea quo dolore laudantium consectetur!</p>
                         </div>
                     </div>
-                </li>
+                </li> --}}
                 <li class="timeline-inverted">
                     <div class="timeline-image">
                         <h4>
@@ -187,18 +177,21 @@
         </div>
     </section>
 
-    <!-- Team-->
-    <section class="page-section bg-light" id="ketersediaan">
+    <!-- Check Ketersediaan-->
+    <section class="page-section fade-in bg-light" id="ketersediaan">
         <div class="container">
             <div class="text-center">
                 <h2 class="section-heading text-uppercase">Check Ketersediaan Playstation</h2>
-                {{-- <h3 class="section-subheading text-muted">Lorem ipsum dolor sit amet consectetur.</h3> --}}
+                <h3 class="section-subheading text-muted">
+                    *klik tombol detail untuk melihat detail meja
+                </h3>
             </div>
 
             <div class="row">
                 <div class="col-lg-4">
-                    <div class="team-member">
-                        {{-- <img class="mx-auto rounded-circle" src="" alt="..." /> --}}
+                    <div class="ketersediaan">
+                        <i class="fa fa-4x fa-check"></i>
+                        <p>tersedia</p>
                         <h4>Playstation 1</h4>
                         <p class="text-muted">PS 3</p>
                         <button type="button" class="btn btn-dark">
@@ -207,8 +200,9 @@
                     </div>
                 </div>
                 <div class="col-lg-4">
-                    <div class="team-member">
-                        {{-- <img class="mx-auto rounded-circle" src="" alt="..." /> --}}
+                    <div class="ketersediaan">
+                        <i class="fa fa-4x fa-check"></i>
+                        <p>tersedia</p>
                         <h4>Playstation 2</h4>
                         <p class="text-muted">PS 3</p>
                         <button type="button" class="btn btn-dark">
@@ -217,20 +211,48 @@
                     </div>
                 </div>
                 <div class="col-lg-4">
-                    <div class="team-member">
-                        {{-- <img class="mx-auto rounded-circle" src="" alt="..." /> --}}
+                    <div class="ketersediaan">
+                        <i class="fa fa-4x fa-ban"></i>
+                        <p>selesai pukul : 15.30</p>
                         <h4>Playstation 3</h4>
+                        <p class="text-muted">PS 3</p>
+                        <button type="button" class="btn btn-dark">
+                            Detail
+                        </button>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="ketersediaan">
+                        <i class="fa fa-4x fa-check"></i>
+                        <p>tersedia</p>
+                        <h4>Playstation 4</h4>
+                        <p class="text-muted">PS 3</p>
+                        <button type="button" class="btn btn-dark">
+                            Detail
+                        </button>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="ketersediaan">
+                        <i class="fa fa-4x fa-check"></i>
+                        <p>tersedia</p>
+                        <h4>Playstation 5</h4>
                         <p class="text-muted">PS 4</p>
                         <button type="button" class="btn btn-dark">
                             Detail
                         </button>
                     </div>
                 </div>
-            </div>
-            <div class="row">
-                <div class="col-lg-8 mx-auto text-center">
-                    <p class="large text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut eaque,
-                        laboriosam veritatis, quos non quis ad perspiciatis, totam corporis ea, alias ut unde.</p>
+                <div class="col-lg-4">
+                    <div class="ketersediaan">
+                        <i class="fa fa-4x fa-check"></i>
+                        <p>tersedia</p>
+                        <h4>Playstation 6</h4>
+                        <p class="text-muted">PS 4</p>
+                        <button type="button" class="btn btn-dark">
+                            Detail
+                        </button>
+                    </div>
                 </div>
             </div>
         </div>
@@ -240,76 +262,77 @@
     <section class="page-section fade-in" id="games">
         <div class="container">
             <div class="text-center">
-                <h2 class="section-heading text-uppercase">Games</h2>
-                <h3 class="section-subheading text-muted">Lorem ipsum dolor sit amet consectetur.</h3>
+                <h2 class="section-heading text-uppercase">Top Games</h2>
             </div>
-            <div class="row">
-
-                <div class="col-lg-4 col-sm-6 mb-4">
-                    <!-- Portfolio item 1-->
-                    <div class="card" style="width: 20rem;">
+            <div class="row" align="center">
+                <h5 class="text-muted py-4">Playstation 3</h5>
+                <div class="col-lg-4 col-md-4 col-sm-4">
+                    <!-- game 1-->
+                    <div class="card card-game">
                         <img src="assets/img/games/PS4_FIFA2019.jpg" class="card-img-top" alt="PS4_FIFA2019">
                         <div class="card-body">
-                        <p class="card-text fw-bold text-center">
-                            FIFA 2019
-                        </p>
+                            <p class="card-text fw-bold text-center">
+                                FIFA 2019
+                            </p>
                         </div>
                     </div>
                 </div>
 
-                <div class="col-lg-4 col-sm-6 mb-4">
-                    <!-- Portfolio item 2-->
-                    <div class="card" style="width: 20rem;">
+                <div class="col-lg-4 col-md-4 col-sm-4">
+                    <!-- game 2-->
+                    <div class="card card-game">
                         <img src="assets/img/games/PS4_PES2019.jpg" class="card-img-top" alt="PS4_PES2019">
                         <div class="card-body">
-                        <p class="card-text fw-bold text-center">
-                            Pro Evolution Soccer 2019
-                        </p>
+                            <p class="card-text fw-bold text-center">
+                                Pro Evolution Soccer 2019
+                            </p>
                         </div>
                     </div>
                 </div>
-                
-                <div class="col-lg-4 col-sm-6 mb-4">
-                    <!-- Portfolio item 3-->
-                    <div class="card" style="width: 20rem;">
+
+                <div class="col-lg-4 col-md-4 col-sm-4">
+                    <!-- game 3-->
+                    <div class="card card-game">
                         <img src="assets/img/games/PS4_GOW.jpg" class="card-img-top" alt="PS4_GOW">
                         <div class="card-body">
-                        <p class="card-text fw-bold text-center">
-                            GOD OF WAR : Day One Edition
-                        </p>
+                            <p class="card-text fw-bold text-center">
+                                GOD OF WAR : Day One Edition
+                            </p>
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-4 col-sm-6 mb-4 mb-lg-0">
-                    <!-- Portfolio item 4-->
-                    <div class="card" style="width: 20rem;">
+                <h5 class="text-muted py-4">Playstation 4</h5>
+                <div class="col-lg-4 col-md-4 col-sm-4">
+                    <!-- game 4-->
+                    <div class="card card-game">
                         <img src="assets/img/games/PS4_Battlefield4.jpg" class="card-img-top" alt="PS4_Battlefield4">
                         <div class="card-body">
-                        <p class="card-text fw-bold text-center">
-                            BATTLEFIELD 4
-                        </p>
+                            <p class="card-text fw-bold text-center">
+                                BATTLEFIELD 4
+                            </p>
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-4 col-sm-6 mb-4 mb-sm-0">
-                    <!-- Portfolio item 5-->
-                    <div class="card" style="width: 20rem;">
+                <div class="col-lg-4 col-md-4 col-sm-4">
+                    <!-- game 5-->
+                    <div class="card card-game">
                         <img src="assets/img/games/PS4_GTA.jpg" class="card-img-top" alt="PS4_GTA">
                         <div class="card-body">
-                        <p class="card-text fw-bold text-center">
-                            GRAND THEFT AUTO
-                        </p>
+                            <p class="card-text fw-bold text-center">
+                                GRAND THEFT AUTO
+                            </p>
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-4 col-sm-6">
-                    <!-- Portfolio item 6-->
-                    <div class="card" style="width: 20rem;">
-                        <img src="assets/img/games/PS4_Horizon_Zero_Dawn.jpg" class="card-img-top" alt="PS4_Horizon_Zero_Dawn">
+                <div class="col-lg-4 col-md-4 col-sm-4">
+                    <!-- game 6-->
+                    <div class="card card-game">
+                        <img src="assets/img/games/PS4_Horizon_Zero_Dawn.jpg" class="card-img-top"
+                            alt="PS4_Horizon_Zero_Dawn">
                         <div class="card-body">
-                        <p class="card-text fw-bold text-center">
-                            HORIZON ZERO DAWN
-                        </p>
+                            <p class="card-text fw-bold text-center">
+                                HORIZON ZERO DAWN
+                            </p>
                         </div>
                     </div>
                 </div>
@@ -317,7 +340,7 @@
 
             <div class="text-center">
                 <button type="button" class="btn btn-warning mt-5" data-bs-toggle="modal" data-bs-target="#modalGames">
-                    View More
+                    View More Games
                 </button>
             </div>
         </div>
@@ -368,7 +391,8 @@
         <div class="container">
             <div class="text-center">
                 <h2 class="section-heading text-uppercase">Contact Us</h2>
-                <h3 class="section-subheading text-muted">Lorem ipsum dolor sit amet consectetur.</h3>
+                <h3 class="section-subheading" style="color: #ffffff">jika ada kritik dan saran atau request game bisa
+                    hubungi kontak kami</h3>
             </div>
             <!-- * * * * * * * * * * * * * * *-->
             <!-- * * SB Forms Contact Form * *-->
@@ -446,255 +470,190 @@
                     <h1 class="modal-title fs-5" id="exampleModalLabel">All Games</h1>
                     <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                 </div>
-                <div class="modal-body">
-                    ...
+                <div class="modal-body d-inline" >
+                    <div class="row mb-4" align="center" >
+                        <h4 class="fs-5" align="left">Playstation 4 Games</h4>
+                        <div class="col"  >
+                            <div class="card card-gameModal">
+                                <img src="assets/img/games/PS4_FIFA2019.jpg" class="card-img-top" alt="PS4_FIFA2019">
+                                <div class="card-body">
+                                    <p class="card-text fw-bold text-center">
+                                        FIFA 2019
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col"  >
+                            <div class="card card-gameModal">
+                                <img src="assets/img/games/PS4_FIFA2019.jpg" class="card-img-top" alt="PS4_FIFA2019">
+                                <div class="card-body">
+                                    <p class="card-text fw-bold text-center">
+                                        FIFA 2019
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col"  >
+                            <div class="card card-gameModal">
+                                <img src="assets/img/games/PS4_FIFA2019.jpg" class="card-img-top" alt="PS4_FIFA2019">
+                                <div class="card-body">
+                                    <p class="card-text fw-bold text-center">
+                                        FIFA 2019
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col"  >
+                            <div class="card card-gameModal">
+                                <img src="assets/img/games/PS4_FIFA2019.jpg" class="card-img-top" alt="PS4_FIFA2019">
+                                <div class="card-body">
+                                    <p class="card-text fw-bold text-center">
+                                        FIFA 2019
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col"  >
+                            <div class="card card-gameModal">
+                                <img src="assets/img/games/PS4_FIFA2019.jpg" class="card-img-top" alt="PS4_FIFA2019">
+                                <div class="card-body">
+                                    <p class="card-text fw-bold text-center">
+                                        FIFA 2019
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col"  >
+                            <div class="card card-gameModal">
+                                <img src="assets/img/games/PS4_FIFA2019.jpg" class="card-img-top" alt="PS4_FIFA2019">
+                                <div class="card-body">
+                                    <p class="card-text fw-bold text-center">
+                                        FIFA 2019
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col"  >
+                            <div class="card card-gameModal">
+                                <img src="assets/img/games/PS4_FIFA2019.jpg" class="card-img-top" alt="PS4_FIFA2019">
+                                <div class="card-body">
+                                    <p class="card-text fw-bold text-center">
+                                        FIFA 2019
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        
+                    </div>
+                    <div class="row" align="center" >
+                        <h4 class="fs-5" align="left">Playstation 4 Games</h4>
+                        <div class="col" >
+                            <div class="card card-gameModal">
+                                <img src="assets/img/games/PS4_FIFA2019.jpg" class="card-img-top" alt="PS4_FIFA2019">
+                                <div class="card-body">
+                                    <p class="card-text fw-bold text-center">
+                                        FIFA 2019
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col"  >
+                            <div class="card card-gameModal">
+                                <img src="assets/img/games/PS4_FIFA2019.jpg" class="card-img-top" alt="PS4_FIFA2019">
+                                <div class="card-body">
+                                    <p class="card-text fw-bold text-center">
+                                        FIFA 2019
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col"  >
+                            <div class="card card-gameModal">
+                                <img src="assets/img/games/PS4_FIFA2019.jpg" class="card-img-top" alt="PS4_FIFA2019">
+                                <div class="card-body">
+                                    <p class="card-text fw-bold text-center">
+                                        FIFA 2019
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col"  >
+                            <div class="card card-gameModal">
+                                <img src="assets/img/games/PS4_FIFA2019.jpg" class="card-img-top" alt="PS4_FIFA2019">
+                                <div class="card-body">
+                                    <p class="card-text fw-bold text-center">
+                                        FIFA 2019
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col"  >
+                            <div class="card card-gameModal">
+                                <img src="assets/img/games/PS4_FIFA2019.jpg" class="card-img-top" alt="PS4_FIFA2019">
+                                <div class="card-body">
+                                    <p class="card-text fw-bold text-center">
+                                        FIFA 2019
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col"  >
+                            <div class="card card-gameModal">
+                                <img src="assets/img/games/PS4_FIFA2019.jpg" class="card-img-top" alt="PS4_FIFA2019">
+                                <div class="card-body">
+                                    <p class="card-text fw-bold text-center">
+                                        FIFA 2019
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col"  >
+                            <div class="card card-gameModal">
+                                <img src="assets/img/games/PS4_FIFA2019.jpg" class="card-img-top" alt="PS4_FIFA2019">
+                                <div class="card-body">
+                                    <p class="card-text fw-bold text-center">
+                                        FIFA 2019
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col"  >
+                            <div class="card card-gameModal">
+                                <img src="assets/img/games/PS4_FIFA2019.jpg" class="card-img-top" alt="PS4_FIFA2019">
+                                <div class="card-body">
+                                    <p class="card-text fw-bold text-center">
+                                        FIFA 2019
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col"  >
+                            <div class="card card-gameModal">
+                                <img src="assets/img/games/PS4_FIFA2019.jpg" class="card-img-top" alt="PS4_FIFA2019">
+                                <div class="card-body">
+                                    <p class="card-text fw-bold text-center">
+                                        FIFA 2019
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col"  >
+                            <div class="card card-gameModal">
+                                <img src="assets/img/games/PS4_FIFA2019.jpg" class="card-img-top" alt="PS4_FIFA2019">
+                                <div class="card-body">
+                                    <p class="card-text fw-bold text-center">
+                                        FIFA 2019
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
     </div>
 
 
-    <!-- Portfolio Modals-->
-    <!-- Portfolio item 1 modal popup-->
-    <div class="portfolio-modal modal fade" id="portfolioModal1" tabindex="-1" role="dialog" aria-hidden="true">
-        <div class="modal-dialog">
-            <div class="modal-content">
-                <div class="close-modal" data-bs-dismiss="modal"><img src="assets/img/close-icon.svg"
-                        alt="Close modal" /></div>
-                <div class="container">
-                    <div class="row justify-content-center">
-                        <div class="col-lg-8">
-                            <div class="modal-body">
-                                <!-- Project details-->
-                                <h2 class="text-uppercase">Project Name</h2>
-                                <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p>
-                                <img class="img-fluid d-block mx-auto" src="assets/img/portfolio/1.jpg" alt="..." />
-                                <p>Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur
-                                    adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt
-                                    repellat aperiam quasi sunt officia expedita beatae cupiditate, maiores repudiandae,
-                                    nostrum, reiciendis facere nemo!</p>
-                                <ul class="list-inline">
-                                    <li>
-                                        <strong>Client:</strong>
-                                        Threads
-                                    </li>
-                                    <li>
-                                        <strong>Category:</strong>
-                                        Illustration
-                                    </li>
-                                </ul>
-                                <button class="btn btn-primary btn-xl text-uppercase" data-bs-dismiss="modal"
-                                    type="button">
-                                    <i class="fas fa-xmark me-1"></i>
-                                    Close Project
-                                </button>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <!-- Portfolio item 2 modal popup-->
-    <div class="portfolio-modal modal fade" id="portfolioModal2" tabindex="-1" role="dialog" aria-hidden="true">
-        <div class="modal-dialog">
-            <div class="modal-content">
-                <div class="close-modal" data-bs-dismiss="modal"><img src="assets/img/close-icon.svg"
-                        alt="Close modal" /></div>
-                <div class="container">
-                    <div class="row justify-content-center">
-                        <div class="col-lg-8">
-                            <div class="modal-body">
-                                <!-- Project details-->
-                                <h2 class="text-uppercase">Project Name</h2>
-                                <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p>
-                                <img class="img-fluid d-block mx-auto" src="assets/img/portfolio/2.jpg" alt="..." />
-                                <p>Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur
-                                    adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt
-                                    repellat aperiam quasi sunt officia expedita beatae cupiditate, maiores repudiandae,
-                                    nostrum, reiciendis facere nemo!</p>
-                                <ul class="list-inline">
-                                    <li>
-                                        <strong>Client:</strong>
-                                        Explore
-                                    </li>
-                                    <li>
-                                        <strong>Category:</strong>
-                                        Graphic Design
-                                    </li>
-                                </ul>
-                                <button class="btn btn-primary btn-xl text-uppercase" data-bs-dismiss="modal"
-                                    type="button">
-                                    <i class="fas fa-xmark me-1"></i>
-                                    Close Project
-                                </button>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <!-- Portfolio item 3 modal popup-->
-    <div class="portfolio-modal modal fade" id="portfolioModal3" tabindex="-1" role="dialog" aria-hidden="true">
-        <div class="modal-dialog">
-            <div class="modal-content">
-                <div class="close-modal" data-bs-dismiss="modal"><img src="assets/img/close-icon.svg"
-                        alt="Close modal" /></div>
-                <div class="container">
-                    <div class="row justify-content-center">
-                        <div class="col-lg-8">
-                            <div class="modal-body">
-                                <!-- Project details-->
-                                <h2 class="text-uppercase">Project Name</h2>
-                                <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p>
-                                <img class="img-fluid d-block mx-auto" src="assets/img/portfolio/3.jpg" alt="..." />
-                                <p>Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur
-                                    adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt
-                                    repellat aperiam quasi sunt officia expedita beatae cupiditate, maiores repudiandae,
-                                    nostrum, reiciendis facere nemo!</p>
-                                <ul class="list-inline">
-                                    <li>
-                                        <strong>Client:</strong>
-                                        Finish
-                                    </li>
-                                    <li>
-                                        <strong>Category:</strong>
-                                        Identity
-                                    </li>
-                                </ul>
-                                <button class="btn btn-primary btn-xl text-uppercase" data-bs-dismiss="modal"
-                                    type="button">
-                                    <i class="fas fa-xmark me-1"></i>
-                                    Close Project
-                                </button>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <!-- Portfolio item 4 modal popup-->
-    <div class="portfolio-modal modal fade" id="portfolioModal4" tabindex="-1" role="dialog" aria-hidden="true">
-        <div class="modal-dialog">
-            <div class="modal-content">
-                <div class="close-modal" data-bs-dismiss="modal"><img src="assets/img/close-icon.svg"
-                        alt="Close modal" /></div>
-                <div class="container">
-                    <div class="row justify-content-center">
-                        <div class="col-lg-8">
-                            <div class="modal-body">
-                                <!-- Project details-->
-                                <h2 class="text-uppercase">Project Name</h2>
-                                <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p>
-                                <img class="img-fluid d-block mx-auto" src="assets/img/portfolio/4.jpg" alt="..." />
-                                <p>Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur
-                                    adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt
-                                    repellat aperiam quasi sunt officia expedita beatae cupiditate, maiores repudiandae,
-                                    nostrum, reiciendis facere nemo!</p>
-                                <ul class="list-inline">
-                                    <li>
-                                        <strong>Client:</strong>
-                                        Lines
-                                    </li>
-                                    <li>
-                                        <strong>Category:</strong>
-                                        Branding
-                                    </li>
-                                </ul>
-                                <button class="btn btn-primary btn-xl text-uppercase" data-bs-dismiss="modal"
-                                    type="button">
-                                    <i class="fas fa-xmark me-1"></i>
-                                    Close Project
-                                </button>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <!-- Portfolio item 5 modal popup-->
-    <div class="portfolio-modal modal fade" id="portfolioModal5" tabindex="-1" role="dialog" aria-hidden="true">
-        <div class="modal-dialog">
-            <div class="modal-content">
-                <div class="close-modal" data-bs-dismiss="modal"><img src="assets/img/close-icon.svg"
-                        alt="Close modal" /></div>
-                <div class="container">
-                    <div class="row justify-content-center">
-                        <div class="col-lg-8">
-                            <div class="modal-body">
-                                <!-- Project details-->
-                                <h2 class="text-uppercase">Project Name</h2>
-                                <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p>
-                                <img class="img-fluid d-block mx-auto" src="assets/img/portfolio/5.jpg" alt="..." />
-                                <p>Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur
-                                    adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt
-                                    repellat aperiam quasi sunt officia expedita beatae cupiditate, maiores repudiandae,
-                                    nostrum, reiciendis facere nemo!</p>
-                                <ul class="list-inline">
-                                    <li>
-                                        <strong>Client:</strong>
-                                        Southwest
-                                    </li>
-                                    <li>
-                                        <strong>Category:</strong>
-                                        Website Design
-                                    </li>
-                                </ul>
-                                <button class="btn btn-primary btn-xl text-uppercase" data-bs-dismiss="modal"
-                                    type="button">
-                                    <i class="fas fa-xmark me-1"></i>
-                                    Close Project
-                                </button>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <!-- Portfolio item 6 modal popup-->
-    <div class="portfolio-modal modal fade" id="portfolioModal6" tabindex="-1" role="dialog" aria-hidden="true">
-        <div class="modal-dialog">
-            <div class="modal-content">
-                <div class="close-modal" data-bs-dismiss="modal"><img src="assets/img/close-icon.svg"
-                        alt="Close modal" /></div>
-                <div class="container">
-                    <div class="row justify-content-center">
-                        <div class="col-lg-8">
-                            <div class="modal-body">
-                                <!-- Project details-->
-                                <h2 class="text-uppercase">Project Name</h2>
-                                <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p>
-                                <img class="img-fluid d-block mx-auto" src="assets/img/portfolio/6.jpg" alt="..." />
-                                <p>Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur
-                                    adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt
-                                    repellat aperiam quasi sunt officia expedita beatae cupiditate, maiores repudiandae,
-                                    nostrum, reiciendis facere nemo!</p>
-                                <ul class="list-inline">
-                                    <li>
-                                        <strong>Client:</strong>
-                                        Window
-                                    </li>
-                                    <li>
-                                        <strong>Category:</strong>
-                                        Photography
-                                    </li>
-                                </ul>
-                                <button class="btn btn-primary btn-xl text-uppercase" data-bs-dismiss="modal"
-                                    type="button">
-                                    <i class="fas fa-xmark me-1"></i>
-                                    Close Project
-                                </button>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
     <!-- Bootstrap core JS-->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
     <!-- Core theme JS-->
